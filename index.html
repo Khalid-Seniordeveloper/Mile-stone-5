@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="https://cdn.tailwindcss.com" rel="stylesheet"> -->
+     <link rel="stylesheet" href="./style.css">
+ 
+</head>
+<body>
+
+    <h1 id="head" class="bg-orange-600">Resume Builder by Khalid</h1>
+
+    <div class="section s-1 bg-green-500" >
+        <h2 id="head-2">Personal Information</h2>
+        <form id="form">
+            <div class="profile-image-container">
+                <img id="profile-image" class="profile-image" src="./images/download.png" alt="Profile Image" />
+                <input type="file" id="image-upload" accept="image/*" class="input input-bordered input-primary profile-image-input">
+            </div>
+            <div class="input-container">
+                <input type="text" placeholder="Enter Please First Name" class="input input-bordered input-primary" id="first-name" required />
+            </div>
+            <div class="input-container">
+                <input type="text" placeholder="Enter Please Last Name" class="input input-bordered input-primary" id="last-name" required />
+            </div>
+            <div class="input-container">
+                <input type="number" placeholder="Contact Number" class="input input-bordered input-primary" id="contact" required />
+            </div>
+            <div class="input-container">
+                <input type="email" placeholder="Email" class="input input-bordered input-primary" id="email" required />
+            </div>
+            <div class="input-container">
+                <input type="text" placeholder="City" class="input input-bordered input-primary" id="city" required />
+            </div>
+        </form>
+    </div>
+
+    <div class="section s-3" >
+        <h2 id="head-3">Education</h2>
+        <form id="education-form">
+            <div class="input-container">
+                <input type="text" placeholder="Degree" class="input input-bordered input-accent w-full max-w-xs" id="degree" required />
+            </div>
+            <div class="input-container">
+                <input type="text" placeholder="Institution" class="input input-bordered input-accent w-full max-w-xs" id="institution" required />
+            </div>
+            <div class="input-container">
+                <input type="text" placeholder="Year of Graduation" class="input input-bordered input-accent w-full max-w-xs" id="graduation-year" required />
+            </div>
+        </form>
+    </div>
+
+    <div class="section s-4 ">
+        <h2 id="head-4">Working Experience</h2>
+        <form id="experience-form">
+            <div class="input-container">
+                <input type="text" placeholder="Job Title" class="input input-bordered input-error w-full max-w-xs" id="job-title" required />
+            </div>
+            <div class="input-container">
+                <input type="text" placeholder="Company" class="input input-bordered input-error w-full max-w-xs" id="company" required />
+            </div>
+            <div class="input-container">
+                <input type="text" placeholder="Years of Experience" class="input input-bordered input-error w-full max-w-xs" id="experience-years" required />
+            </div>
+        </form>
+    </div>
+
+    <div class="section s-5">
+        <h2 id="head-5">Skills</h2>
+        <form id="skills-form">
+            <div class="input-container">
+                <input type="text" placeholder="Skills (comma separated)" class="input input-bordered w-full max-w-xs" id="skills" required />
+            </div>
+        </form>
+    </div>
+
+    <div class="btn-container">
+        <button class="btn btn-active btn-accent" id="generate-pdf">Generate PDF</button>
+    </div>
+    <div id="button-container"></div>
+    <h1 align="center">When you click "Generate PDF," your CV will be created and displayed below. This will be your final PDF. If you need to make any updates, simply change the fields above and click "Generate PDF" again to apply those changes.
+
+    </h1>
+    <div id="pdf-viewer"></div>
+    <!-- Include jsPDF library -->
+    <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+    <script src="main.js" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+
+</body>
+</html>

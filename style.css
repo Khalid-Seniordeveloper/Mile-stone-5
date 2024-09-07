@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+#head {
+    text-align: center;
+    color: purple; 
+    margin: 40px 0;
+    font-size: 2.5rem;
+    font-family: "Playwrite CU", cursive;
+}
+#head-2 {
+    text-align: center;
+    color: #1d4ed8; 
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-family: "Lato", sans-serif;
+}
+.section {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+.input-container {
+    margin-bottom: 15px;
+}
+.input {
+    border-color: #d1d5db; 
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+}
+.btn-container {
+    text-align: center;
+    margin: 20px;
+}
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+.btn-primary {
+    background-color: #1d4ed8;
+    transition: background-color 0.3s;
+}
+.btn-primary:hover {
+    background-color: #1e40af;
+}
+.btn-secondary {
+    background-color: #34d399; 
+    transition: background-color 0.3s;
+}
+.btn-secondary:hover {
+    background-color: #10b981;
+}
+@media (max-width: 768px) {
+    #head {
+        font-size: 2rem;
+    }
+    #head-2 {
+        font-size: 1.5rem;
+    }
+    .section {
+        padding: 15px;
+    }
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+   
+    color: #333;
+
+}
+#head {
+    text-align: center;
+    color:#ea580c; 
+    margin: 40px 0;
+    font-size: 2.5rem;
+}
+#head-2 {
+    text-align: center;
+    color: #1d4ed8;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.section {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+.input-container {
+    margin-bottom: 15px;
+}
+.input {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+    box-sizing: border-box;
+     /* Font for the input text */
+    font-size: 16px; /* Font size for the input text */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+button:hover {
+    background-color: #45a049;
+}
+.btn-warning {
+    background-color: #FFC107;
+    border: none;
+}
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+input, button {
+   
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;}
+#download-link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+/* Placeholder styling */
+.input::placeholder {
+    font-family: "Playwrite CU", cursive; 
+    font-size: 14px; 
+    color: #999; 
+    opacity: 1; 
+}
+.btn-container {
+    text-align: center;
+    margin: 20px;
+}
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+.btn-primary {
+    background-color: #1d4ed8; /* Tailwind's blue-700 */
+    transition: background-color 0.3s;
+}
+.btn-primary:hover {
+    background-color: #1e40af; /* Tailwind's blue-800 */
+}
+.profile-image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.profile-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #d1d5db; /* Tailwind's gray-300 */
+    background: #e5e7eb; /* Tailwind's gray-200 */
+    display: block;
+    margin: 0 auto;
+}
+.profile-image-input {
+    display: block;
+    margin: 10px auto;
+}
+@media (max-width: 768px) {
+    #head {
+        font-size: 2rem;
+    }
+    #head-2 {
+        font-size: 1.5rem;
+    }
+    .section {
+        padding: 15px;
+    }
+}
+.s-1{
+background-color: #0ca4f0;
+}
+.s-3{
+    background-color: #08d1ce;
+}
+.s-4{
+    background-color: #f263a8;
+}
+.s-5{
+    background-color: #e1f0ee;
+}
+#head-3{
+
+    text-align: center;
+    color: green; /* Tailwind's blue-700 */
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-family: "Lato", sans-serif;
+}
+#head-4{
+    text-align: center;
+    color: white; /* Tailwind's blue-700 */
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-family: "Lato", sans-serif;
+}
+#head-5{
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    color: gray; /* Tailwind's blue-700 */
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+body {
+    font-family: 'Arial', sans-serif;
+
+    padding: 20px 0 60px 0;
+     
+       
+        background-color: #d1dbff;;
+}
+
+
+h1, h2 {
+    text-align: center;
+    margin: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Heading Animations */
+h1 {
+    animation: fadeIn 2s ease-out;
+}
+
+h2 {
+    animation: slideIn 1s ease-out;
+}
+
+/* Section styling */
+.section {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    animation: bounceIn 1s ease-out;
+}
+
+.section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Input Container Styling */
+.input-container {
+    margin: 10px 0;
+}
+
+.input {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    animation: slideUp 0.5s ease-out;
+}
+
+.input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 8px rgba(59, 130, 246, 0.2);
+}
+
+/* Profile Image Styling */
+.profile-image-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-out;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+    transform: scale(1.1);
+}
+
+.profile-image-input {
+    margin-left: 15px;
+}
+
+/* Button Styling */
+.btn-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: popIn 0.5s ease-out;
+}
+
+.btn:hover {
+    background-color: #2563eb;
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    background-color: #1d4ed8;
+    transform: translateY(0);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes popIn {
+    0% {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+#head{
+    color: black;
+}
+
+
+
+
+.hidden {
+    display: none;
+}
+
+.toggle-heading {
+    cursor: pointer;
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.toggle-heading:hover {
+    background-color: #2563eb;
+}
+
+.form-section {
+    margin-top: 10px;
+}
+
+.profile-image-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-image {
+    width: 100px; 
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%; 
+}
+
+.profile-image-input {
+    margin-top: 10px;
+}
+
+/* document.addEventListener('DOMContentLoaded', () => {
+    const profileImageInput = document.getElementById('image-upload');
+    const profileImage = document.getElementById('profile-image');
+    const generatePdfButton = document.getElementById('generate-pdf');
+    // image url isme dalengy malik 
+    let imageDataURL = null; 
+// image upload krne wala mamla 
+    profileImageInput.addEventListener('change', (event) => {
+ const file = event.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+
+        profileImage.src = e.target.result;
+                imageDataURL = e.target.result; 
+            };
+            reader.readAsDataURL(file);
+        }
+    });
+
+    generatePdfButton.addEventListener('click', () => {
+        const fields = [
+
+        'first-name', 'last-name', 'contact', 'email', 'city',
+            'degree', 'institution', 'graduation-year',
+            'job-title', 'company', 'experience-years',
+            'skills'
+        ];
+        
+        let allFilled = true;
+        fields.forEach(id => {
+
+            const value = document.getElementById(id).value.trim();
+            if (!value) {
+                allFilled = false;
+            }
+        });
+    // condition laga di agr sb input field filll hon tbhi generate ho cv 
+        if (!allFilled) {
+            alert('Please fill out all fields before generating the PDF.');
+            return; // Exit the function if not all fields are filled
+        }
+
+//  import krlia pdf ko 
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF();
+
+    // agr image ho to add kro 
+        if (imageDataURL) {
+            doc.addImage(imageDataURL, 'PNG', 10, 10, 50, 50); // Adjust size and position as needed
+        }
+
+// pdf me add krne wala mamla 
+        doc.setFontSize(18);
+        doc.text('Resume', 10, 70); 
+        doc.setFontSize(12);
+        doc.text(`Name: ${document.getElementById('first-name').value} ${document.getElementById('last-name').value}`, 10, 80);
+    doc.text(`Contact: ${document.getElementById('contact').value}`, 10, 90);
+        doc.text(`Email: ${document.getElementById('email').value}`, 10, 100);
+       doc.text(`City: ${document.getElementById('city').value}`, 10, 110);
+      doc.text('Education', 10, 120);
+     doc.text(`Degree: ${document.getElementById('degree').value}`, 10, 130);
+        doc.text(`Institution: ${document.getElementById('institution').value}`, 10, 140);
+        doc.text(`Year of Graduation: ${document.getElementById('graduation-year').value}`, 10, 150);
+        doc.text('Working Experience', 10, 160);
+        doc.text(`Job Title: ${document.getElementById('job-title').value}`, 10, 170);
+        doc.text(`Company: ${document.getElementById('company').value}`, 10, 180);
+        doc.text(`Years of Experience: ${document.getElementById('experience-years').value}`, 10, 190);
+        doc.text('Skills', 10, 200);
+        doc.text(`Skills: ${document.getElementById('skills').value}`, 10, 210);
+
+        const existingViewButton = document.getElementById('view-button');
+
+        // condition jab tamam input fields fill honi cheye 
+        if (existingViewButton) {
+
+            existingViewButton.remove();
+
+        }
+const existingDownloadButton = document.getElementById('download-button');
+
+if (existingDownloadButton) {
+
+    existingDownloadButton.remove();        }
+        // live dekhne ka button 
+        const viewButton = document.createElement('button');
+        viewButton.id = 'view-button';
+        viewButton.className = 'btn btn-success';
+        viewButton.textContent = 'View PDF';
+        viewButton.onclick = () => {
+            const pdfBlob = doc.output('blob');
+            const url = URL.createObjectURL(pdfBlob);
+            window.open(url, '_blank');
+        };
+
+// download button ka kaam 
+        
+const downloadButton = document.createElement('button');
+         downloadButton.id = 'download-button';
+    downloadButton.className = 'btn btn-primary';
+            downloadButton.textContent = 'Download PDF';
+     downloadButton.onclick = () => {
+            doc.save('resume.pdf');
+        };
+
+        // Append the buttons to the body
+        document.body.appendChild(viewButton);
+        document.body.appendChild(downloadButton);
+    });
+}); */
+
+#pdf-viewer {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
